@@ -57,6 +57,7 @@
 !/lib/plugins/remote.php
 !/lib/plugins/syntax.php
 lib/images/*/local/*
+!_dummy
 
 # composer default ignores
 composer.phar
