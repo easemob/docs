@@ -1,64 +1,61 @@
 ====== DokuWiki ======
 
-[[doku>wiki:dokuwiki|{{wiki:dokuwiki-128.png }}]] DokuWiki is a simple to use and highly versatile Open Source [[wp>wiki]] software that doesn't require a database. It is loved by users for its clean and readable [[wiki:syntax]]. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in [[doku>acl|access controls]] and [[doku>auth|authentication connectors]] make DokuWiki especially useful in the enterprise context and the large number of [[doku>plugins]] contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.
+[[doku>wiki:dokuwiki|{{wiki:dokuwiki-128.png }}]] DokuWiki是一个符合标准、简单易用的[[wp>Wiki]]，主要用于创建任何类型的文件。它适用于开发团体、工作小组和小型企业。它有简单而强大的[[zh:wiki:syntax|语法]]，确保数据文件在Wiki外仍然可以阅读，并简化了结构化文本的创建。所有数据都保存在纯文本文件中——不需要数据库。
 
-Read the [[doku>manual|DokuWiki Manual]] to unleash the full power of DokuWiki.
+可阅读[[doku>manual|DokuWiki手册]]来了解DokuWiki的强大之处。
+===== 下载 =====
 
-===== Download =====
+下载DokuWiki请访问：http://download.dokuwiki.org
 
-DokuWiki is available at http://download.dokuwiki.org/
+===== 了解更多 =====
 
+所有的文档和其它信息，包括[[syntax|语法描述]]都在[[doku>dokuwiki|www.dokuwiki.org]]上维护。
 
-===== Read More =====
+**关于DokuWiki**
 
-All documentation and additional information besides the [[syntax|syntax description]] is maintained in the DokuWiki at [[doku>|www.dokuwiki.org]].
+  * [[doku>features|软件特点]] :!:
+  * [[doku>zh:users|使用DokuWiki中文简体的用户]]
+  * [[doku>press|媒体评论]]
+  * [[doku>blogroll|博客主的想法]]
+  * [[http://www.wikimatrix.org/show/DokuWiki|与其它wiki程序比较]]
 
-**About DokuWiki**
+**安装DokuWiki**
 
-  * [[doku>features|A feature list]] :!:
-  * [[doku>users|Happy Users]]
-  * [[doku>press|Who wrote about it]]
-  * [[doku>blogroll|What Bloggers think]]
-  * [[http://www.wikimatrix.org/show/DokuWiki|Compare it with other wiki software]]
+  * [[doku>requirements|系统要求]]
+  * [[http://download.dokuwiki.org|下载DokuWiki]] :!:
+  * [[doku>changes|更新记录]]
+  * [[doku>Install|如何安装和升级]] :!:
+  * [[doku>config|配置]]
 
-**Installing DokuWiki**
+**使用DokuWiki**
 
-  * [[doku>requirements|System Requirements]]
-  * [[http://download.dokuwiki.org/|Download DokuWiki]] :!:
-  * [[doku>changes|Change Log]]
-  * [[doku>Install|How to install or upgrade]] :!:
-  * [[doku>config|Configuration]]
+  * [[syntax|格式化语法]]
+  * [[doku>manual|手册]] :!:
+  * [[doku>FAQ|常见问题解答(FAQ)]]
+  * [[doku>glossary|术语表]]
+  * [[http://search.dokuwiki.org|搜索DokuWiki的帮助和文档]]
 
-**Using DokuWiki**
+**定制DokuWiki**
 
-  * [[doku>syntax|Wiki Syntax]]
-  * [[doku>manual|The manual]] :!:
-  * [[doku>FAQ|Frequently Asked Questions (FAQ)]]
-  * [[doku>glossary|Glossary]]
-  * [[http://search.dokuwiki.org|Search for DokuWiki help and documentation]]
+  * [[doku>tips|技巧与诀窍]]
+  * [[doku>templates|如何建立和使用模版]]
+  * [[doku>plugins|安装插件]]
+  * [[doku>development|开发资源]]
 
-**Customizing DokuWiki**
+**DokuWiki回馈与社区**
 
-  * [[doku>tips|Tips and Tricks]]
-  * [[doku>Template|How to create and use templates]]
-  * [[doku>plugins|Installing plugins]]
-  * [[doku>development|Development Resources]]
+  * [[doku>newsletter|订阅简讯]] :!:
+  * [[doku>mailinglist|加入邮件列表]] :!:
+  * [[doku>forum|体验用户论坛]]
+  * [[doku>irc|在IRC频道中与其它用户交流]]
+  * [[https://github.com/splitbrain/dokuwiki/issues|提交bug与想要的特性]]
+  * [[http://www.wikimatrix.org/forum/viewforum.php?id=10|在WikiMatrix论坛分享您的经验]]
+  * [[doku>thanks|致谢]]
 
-**DokuWiki Feedback and Community**
+===== 版权 ====
 
-  * [[doku>newsletter|Subscribe to the newsletter]] :!:
-  * [[doku>mailinglist|Join the mailing list]]
-  * [[http://forum.dokuwiki.org|Check out the user forum]]
-  * [[doku>irc|Talk to other users in the IRC channel]]
-  * [[https://github.com/splitbrain/dokuwiki/issues|Submit bugs and feature wishes]]
-  * [[http://www.wikimatrix.org/forum/viewforum.php?id=10|Share your experiences in the WikiMatrix forum]]
-  * [[doku>thanks|Some humble thanks]]
+2004--2013 (c) Andreas Gohr <andi@splitbrain.org>((请不要联系我来寻求帮助与支持——使用[[doku>mailinglist|邮件列表]]或[[http://forum.dokuwiki.org|论坛]]))
 
+DokuWiki在[[http://www.gnu.org/licenses/gpl.html|GNU通用公共许可协议]]第二下授权。如果您在公司中使用DokuWiki，请考虑做一些[[doku>donate|捐赠]];-).
 
-===== Copyright =====
-
-2004-2013 (c) Andreas Gohr <andi@splitbrain.org>((Please do not contact me for help and support -- use the [[doku>mailinglist]] or [[http://forum.dokuwiki.org|forum]] instead)) and the DokuWiki Community
-
-The DokuWiki engine is licensed under [[http://www.gnu.org/licenses/gpl.html|GNU General Public License]] Version 2. If you use DokuWiki in your company, consider [[doku>donate|donating]] a few bucks ;-).
-
-Not sure what this means? See the [[doku>faq:license|FAQ on the Licenses]].
+不确定这是什么意思？参见[[doku>faq:license|关于版权的FAQ]]。

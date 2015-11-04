@@ -2,6 +2,7 @@
 /conf/acl.auth.php
 /conf/local.php
 /conf/local.protected.php
+/conf/mysql.conf.php
 /conf/users.auth.php
 /conf/user*.css
 /conf/user*.js
