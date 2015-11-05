@@ -39,7 +39,6 @@
 /data/tmp/*
 /lib/tpl/*
 !/lib/tpl/dokuwiki
-!/lib/tpl/haozki
 !/lib/tpl/index.php
 /lib/plugins/*
 !/lib/plugins/acl
@@ -79,3 +78,10 @@ vendor/*/*/docs/*
 vendor/*/*/contrib/*
 vendor/splitbrain/php-archive/apigen.neon
 vendor/splitbrain/php-archive/generate-api.sh
+
+!/lib/tpl/haozki
+!/lib/plugins/indexmenu/
+/lib/plugins/indexmenu/*
+!/lib/plugins/indexmenu/images/
+/lib/plugins/indexmenu/images/*
+!/lib/plugins/indexmenu/images/haozki
