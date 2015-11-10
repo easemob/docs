@@ -107,7 +107,8 @@ body {background:#fff;}
 
 
 /*code*/
-pre { box-shadow:none;background:#f7f7f9;}
+#dokuwiki__content pre {box-shadow:none;background:#f7f7f9;}
+#dokuwiki__content p {line-height:25px;}
 .dokuwiki table.inline {min-width:100%;}
 
 /**/
@@ -118,12 +119,12 @@ pre { box-shadow:none;background:#f7f7f9;}
 /*Tree*/
 .dokuwiki .dtree a, .dokuwiki .aside .dtree a, .dokuwiki .dtree a:visited, .dokuwiki .aside .dtree a:visited, .dokuwiki .dtree a:link, .dokuwiki .aside .dtree a:link { display:inline-block;font-size:14px;color:#9F9F9F;}
 .dokuwiki .dtree a.nodeFdUrl:hover, .dokuwiki .dtree a.nodeSel:hover, .dokuwiki a.navSel:hover, .dokuwiki .dtree a.nodeUrl:hover {color:#333;background:none;}
-.dokuwiki .dtree a.navSel, .dokuwiki .aside .dtree a.navSel {background:rgba(255, 255, 255, 0) none repeat scroll 0% 0%;color:#EE8350;border-left: 3px solid #EE8350;margin-left: -12px;padding-left: 7px;}
+.dokuwiki .dtree a.navSel, .dokuwiki .aside .dtree a.navSel {background:rgba(255, 255, 255, 0) none repeat scroll 0% 0%;color:#EE8350;_border-left: 3px solid #EE8350;_margin-left: -12px;_padding-left: 7px;border-bottom:2px solid #EE8350;}
 
 
 
 .dtree > .dTreeNode {margin-bottom:5px;padding:5px 0;}
-.dokuwiki .dtree > .dTreeNode a.navSel, .dokuwiki .aside .dtree  > .dTreeNode a.navSel {color:#9F9F9F;background:none;}
+.dokuwiki .dtree > .dTreeNode a.navSel, .dokuwiki .aside .dtree  > .dTreeNode a.navSel {color:#EE8350;background:none;}
 
 .dokuwiki .aside .dtree > .dTreeNode .nodeFdUrl {color:#9F9F9F;}
 .dtree > .clip > .dTreeNode {margin-bottom:5px;padding:8px 0;}
