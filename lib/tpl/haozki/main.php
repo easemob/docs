@@ -34,6 +34,11 @@ $showSidebar = $hasSidebar && ($ACT=='show');
 		s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+
+    <!-- growingio -->
+    <script type='text/javascript'>
+        var _vds = _vds || [];(function(){ _vds.push(['setAccountId', '8bb5da75505521d9fa9a3dea82f4e2e2']); (function() {var vds = document.createElement('script'); vds.type='text/javascript'; vds.async = true;vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(vds, s);})();})();
+    </script>
 </head>
 
 <body>
