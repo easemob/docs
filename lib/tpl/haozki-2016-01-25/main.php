@@ -36,12 +36,10 @@ if ($INFO['isadmin'] && isset($_GET['do']) && $_GET['do'] == 'check') {
   <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/font-awesome/css/font-awesome.min.css" />
   <?php tpl_metaheaders() ?>
   <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.min.css">
-  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/nano-scroller/nanoscroller.css">
-  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>css/custom.css?20161028a">
+  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>css/custom.css?20170921">
   <script src="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js"></script>
-  <script src="<?php echo DOKU_TPL ?>assets/nano-scroller/nanoscroller.min.js"></script>
   <script src="<?php echo DOKU_TPL ?>js/jquery.scrollTo.min.js"></script>
-  <script src="<?php echo DOKU_TPL ?>js/custom.js?20161028"></script>
+  <script src="<?php echo DOKU_TPL ?>js/custom.js?20170921"></script>
   <style type="text/css">
     body { padding-top: <?php echo $navbar_padding ?>px; }
     <?php if (bootstrap3_conf('tocCollapseSubSections')): ?>
@@ -58,8 +56,6 @@ if ($INFO['isadmin'] && isset($_GET['do']) && $_GET['do'] == 'check') {
   <?php if ($fixedTopNavbar): ?>
   <script type="text/javascript">/*<![CDATA[*/
     jQuery(document).ready(function() {
-        //jQuery('.dw-sidebar-content').addClass('nano');
-        //jQuery(".dw-sidebar-body").addClass('nano-content');
         if (location.hash) {
             setTimeout(function() {
                 scrollBy(0, -<?php echo $navbar_padding ?>);
@@ -115,9 +111,6 @@ if ($INFO['isadmin'] && isset($_GET['do']) && $_GET['do'] == 'check') {
             jQuery('.dw-sidebar-content').scrollTo('.active',200,{
                 offset: -100
             });
-            //jQuery(".dw-sidebar-content").nanoScroller();
-            //makeScrollable(".dw-sidebar-content", ".dw-sidebar-body");
-
             jQuery('#dw__toc .panel-body').perfectScrollbar();
             setTimeout(function(){
                 jQuery('#dw__toc .panel-body').perfectScrollbar('update');
