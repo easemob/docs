@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+    .dw-sidebar-content {
+        position: relative;
+        padding-right:15px;
+    }
+    .dw-sidebar-content.pin {
+        position: fixed;
+        overflow: auto;
+        top: 50px;
+    }
+    .nano {
+      position : relative;
+      width    : auto;
+      overflow : hidden;
+    }
+    #dokuwiki__aside {
+        padding-right: 0px;
+    }
+    #dokuwiki__content {padding-left:0px}
+    #dw__toc .panel-body {
+        position: relative;
+    }
+    #dw__toc .ps-container > .ps-scrollbar-y-rail {opacity:0.3}
+    #dw__toc .ps-container:hover > .ps-scrollbar-y-rail {opacity:0.6}
+}
+#dokuwiki__aside .page-header {color:#555}
+#dokuwiki__aside .fa {width:18px;text-align:center;font-size:17px}
+#dokuwiki__aside a {color:#666;border-radius:0}
+#dokuwiki__aside .nav-pills {padding-left:12px}
+#dokuwiki__aside .nav-pills > li > a:focus,
+#dokuwiki__aside .nav-pills > li > a:hover {color:#666;background-color:#eee;outline:none}
+#dokuwiki__aside .nav-pills > li.active > a,
+#dokuwiki__aside .nav-pills > li.active > a:focus,
+#dokuwiki__aside .nav-pills > li.active > a:hover {color:#fff;background-color:#00A0E9}
+/*
+#dokuwiki__aside .current-title {}
+#dokuwiki__aside .current-list {background-color:#f6f6f6;border-radius:0;margin-top:-10px;margin-bottom:20px}
+*/
+#dw__toc a {color:#666;border-radius:0}
+#dw__toc .nav-pills > li > a:focus,
+#dw__toc .nav-pills > li > a:hover {color:#666;background-color:#eee;outline:none}
+#dw__toc .nav-pills > li.active > a,
+#dw__toc .nav-pills > li.active > a:focus,
+#dw__toc .nav-pills > li.active > a:hover {color:#fff;background-color:#00A0E9}
+
+.back-to-top {
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(54, 153, 255);
+    border-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    outline: none;
+}
+
+.back-to-top:active,.back-to-top:focus,.back-to-top:hover,.back-to-top:active:focus {
+    color: #FFF;
+    background-color: #3ebbff;
+    border-color: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+.syntaxhighlighter {
+    overflow-y: hidden !important;
+}
+
+#dokuwiki__aside .page-header {cursor:pointer}
+#dokuwiki__aside .nav-stacked {display:none}
