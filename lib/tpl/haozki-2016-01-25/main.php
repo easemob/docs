@@ -35,11 +35,11 @@ if ($INFO['isadmin'] && isset($_GET['do']) && $_GET['do'] == 'check') {
   <?php endforeach; ?>
   <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/font-awesome/css/font-awesome.min.css" />
   <?php tpl_metaheaders() ?>
-  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.min.css">
-  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>css/custom.css?20170921">
-  <script src="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.min.css?0.8.1">
+  <link type="text/css" rel="stylesheet" href="<?php echo DOKU_TPL ?>css/custom.css?20170925">
+  <script src="<?php echo DOKU_TPL ?>assets/perfect-scrollbar/perfect-scrollbar.jquery.min.js?0.8.1"></script>
   <script src="<?php echo DOKU_TPL ?>js/jquery.scrollTo.min.js"></script>
-  <script src="<?php echo DOKU_TPL ?>js/custom.js?20170921"></script>
+  <script src="<?php echo DOKU_TPL ?>js/custom.js?20170925"></script>
   <style type="text/css">
     body { padding-top: <?php echo $navbar_padding ?>px; }
     <?php if (bootstrap3_conf('tocCollapseSubSections')): ?>
