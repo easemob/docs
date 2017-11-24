@@ -15,6 +15,8 @@ $updateVersion = "49.5";
 
 if(!defined('DOKU_INC')) define('DOKU_INC', dirname(__FILE__).'/');
 
+define('DOKU_E_LEVEL', E_ALL & ~E_NOTICE & ~E_WARNING);
+
 // define all DokuWiki globals here (needed within test requests but also helps to keep track)
 global  $ACT,  $INPUT, $QUERY, $ID, $REV, $DATE_AT, $IDX,
         $DATE, $RANGE, $HIGH, $TEXT, $PRE, $SUF, $SUM, $INFO, $JSINFO;
