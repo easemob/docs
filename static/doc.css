@@ -15,6 +15,11 @@ html,body{
 .icon-color-gray{
     color: #9b9b9b;
 }
+.fa-normal{
+    font-size: 1.63333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
 
 /* container */
 .im-container{
@@ -71,8 +76,13 @@ html,body{
     color: #c1c1c1;
 }
 .im-select-area{
+    margin: 0 auto;
     width: 156px;
     height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
 }
 /* link area */
 .im-link-area{
@@ -319,6 +329,9 @@ html,body{
     text-align: center;
     font-size: 12px;
 }
+.im-client-integration .im-footer-info a {
+    color: #4d91f0;
+}
 .im-client-integration .im-footer-info a:hover{
     text-decoration: underline;
 }
@@ -430,7 +443,7 @@ html,body{
     display: inline-block;
     padding-bottom: 24px;
     font-size: 12px;
-    color: #c1c1c1;
+    color: #4d91f0;
 }
 .im-download .im-p-title:hover{
     text-decoration: underline;
