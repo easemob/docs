@@ -38,6 +38,7 @@
 !/data/pages/wiki/welcome.txt
 /lib/tpl/*
 !/lib/tpl/dokuwiki
+!/lib/tpl/bootstrap3_ori
 !/lib/tpl/haozki-2016-01-25
 !/lib/tpl/index.php
 /lib/plugins/*
