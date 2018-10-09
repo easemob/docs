@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页 - 环信开发文档</title>
+    <title>首页 - 环信IM开发文档</title>
     <meta name="keywords" content="环信开发者文档,环信即时通讯云文档,环信客户互动云文档,环信2.0文档,环信3.0文档,环信文档,环信在线客服文档,环信easeui3.0集成,环信开发者平台">
     <meta name="description" content="环信即时通讯云最新集成文档，一天内即可帮APP快速集成聊天功能。 环信客户互动云集成文档，快速多渠道集成，为企业提供智能客服系统。">
     <link rel="shortcut icon" href="favicon.ico">
@@ -16,23 +16,21 @@
     <div class="im-container">
         <!-- header -->
          <div class="im-header">
-            <a href="http://www.easemob.com/" target="_blank" class="im-logo">
+            <a class="im-logo">
                  <span class="im-logo-img"></span>
                  <span class="im-logo-title">IM开发文档</span>
             </a>
+            <a href="http://www.easemob.com/" target="_self" class="im-official-website">环信官网</a>
          </div>
          <!-- content -->
          <div class="im-content">
              <!-- docs select area -->
              <div class="im-docs-select-area">
                 <p class="im-content-info">环信即时通讯云是全球最大的即时通讯云Paas平台。V3.0版本对SDK和通讯协议进行了全面深度的改造与优化</p>
-                <!-- <select class="im-select-area" onchange="javascript:window.open(this.options[this.selectedIndex].value)"> 
+                <select class="im-select-area"  onchange="javascript:location.href=this.value;"> 
                     <option value="http://docs.easemob.com/start/start">IM开发文档2.0</option>
                     <option value="http://docs.easemob.com/im/start" selected = "selected">IM开发文档3.0</option>
-                </select> -->
-                <div class="im-select-area">
-                    <a href="http://docs.easemob.com/start/start" target="_blank">IM开发文档2.0</a>
-                </div>
+                </select>
              </div>
              <!-- link area -->
              <div class="im-link-area">
@@ -42,18 +40,22 @@
                     <p class="im-p-title">首先阅读以下内容，了解环信提供的内容以及如何使用我们的SDK和API</p>
                     <div class="im-link-wrap">
                         <div class="im-item">
+                            <a href="http://120.26.0.157:8011/im/quickstart/guide/introduction" target="_self" class="im-item-wrap">
                             <span class="im-icon">
                                 <i class="fa fa-location-arrow fa-normal icon-color-blue"></i>
                             </span>
-                            <a href="http://120.26.0.157:8011/im/quickstart/guide/introduction" target="_blank" class="im-h-text">新手指南</a>
+                            <span class="im-h-text">新手指南</span>
                             <p class="im-p-text">快速了解集成环信</p>
+                            </a>
                         </div>
                         <div class="im-item">
+                            <a href="http://120.26.0.157:8011/im/quickstart/essential/usersandfriends" target="_self" class="im-item-wrap">
                             <span class="im-icon">
                                 <i class="fa fa-th-list fa-normal icon-color-blue"></i>
                             </span>
-                              <a href="http://120.26.0.157:8011/im/quickstart/essential/usersandfriends" target="_blank" class="im-h-text">基础功能</a>
+                              <span class="im-h-text">基础功能</span>
                             <p class="im-p-text">环信IM的基本功能</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -63,25 +65,31 @@
                         <p class="im-p-title">环信的服务器端接口是通过REST服务方式提供的，允许您构建丰富的外部服务集成</p>
                         <div class="im-link-wrap">
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/server/ready/intro" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-server fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/server/ready/intro" target="_blank" class="im-h-text">集成介绍</a>
+                                <span class="im-h-text">集成介绍</span>
                                 <p class="im-p-text">环信服务端集成的方法</p>
+                            </a>
                             </div>
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/server/basics/chatrecord" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-th-list fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/server/basics/chatrecord" target="_blank" class="im-h-text">基础功能</a>
+                                <span class="im-h-text">基础功能</span>
                                 <p class="im-p-text">服务端IM的功能以及集成API</p>
+                                </a>
                             </div>
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/server/api/groupandchatroomchanges" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-file-text-o fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/server/api/groupandchatroomchanges" target="_blank" class="im-h-text">API文档</a>
+                                <span class="im-h-text">API文档</span>
                                 <p class="im-p-text">环信服务器端集成Swagger文档</p>
+                            </a>
                             </div>
                         </div>
                 </div>
@@ -98,16 +106,16 @@
                                 <p class="im-p-text">Android客户端的集成方法及功能介绍</p>
                                 <ul class="im-ul-list">
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/android/sdk/import" target="_blank">SDK集成介绍</a>
+                                        <a href="http://120.26.0.157:8011/im/android/sdk/import" target="_self">SDK集成介绍</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/android/basics/message" target="_blank">基本功能</a>
+                                        <a href="http://120.26.0.157:8011/im/android/basics/message" target="_self">基本功能</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/android/push/thirdpartypush" target="_blank">消息推送</a>
+                                        <a href="http://120.26.0.157:8011/im/android/push/thirdpartypush" target="_self">消息推送</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/android/other/demo" target="_blank">其他</a>
+                                        <a href="http://120.26.0.157:8011/im/android/other/demo" target="_self">其他</a>
                                     </li>
                                 </ul>
                             </div>
@@ -119,16 +127,16 @@
                                 <p class="im-p-text">iOS客户端的集成方法及功能介绍</p>
                                 <ul class="im-ul-list">
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/ios/sdk/prepare" target="_blank">SDK集成介绍</a>
+                                        <a href="http://120.26.0.157:8011/im/ios/sdk/prepare" target="_self">SDK集成介绍</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/ios/basics/message" target="_blank">基本功能</a>
+                                        <a href="http://120.26.0.157:8011/im/ios/basics/message" target="_self">基本功能</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/ios/apns/deploy" target="_blank">APNs消息推送</a>
+                                        <a href="http://120.26.0.157:8011/im/ios/apns/deploy" target="_self">APNs消息推送</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/ios/other/easeui" target="_blank">其他</a>
+                                        <a href="http://120.26.0.157:8011/im/ios/other/easeui" target="_self">其他</a>
                                     </li>
                                 </ul>
                             </div>
@@ -142,10 +150,10 @@
                                 <p class="im-p-text">Web客户端的集成方法及功能介绍</p>
                                 <ul class="im-ul-list">
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/web/intro/start" target="_blank">SDK集成介绍</a>
+                                        <a href="http://120.26.0.157:8011/im/web/intro/start" target="_self">SDK集成介绍</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/web/basics/message" target="_blank">基本功能</a>
+                                        <a href="http://120.26.0.157:8011/im/web/basics/message" target="_self">基本功能</a>
                                     </li>
                                 </ul>
                             </div>
@@ -157,17 +165,17 @@
                                 <p class="im-p-text">微信小程序的集成方法及功能介绍</p>
                                  <ul class="im-ul-list">
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/applet/intro" target="_blank">集成介绍</a>
+                                        <a href="http://120.26.0.157:8011/im/applet/intro" target="_self">集成介绍</a>
                                     </li>
                                     <li class="im-li-item">
-                                        <a href="http://120.26.0.157:8011/im/applet/releasenote" target="_blank">更新日志</a>
+                                        <a href="http://120.26.0.157:8011/im/applet/releasenote" target="_self">更新日志</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="im-footer-info">
-                            <a href="http://120.26.0.157:8011/im/windows/intro/integration" target="_blank">其他windows/</a>
-                            <a href="http://120.26.0.157:8011/im/linux/integration" target="_blank">Linux客户端集成</a>
+                            <a href="http://120.26.0.157:8011/im/windows/intro/integration" target="_self">其他windows/</a>
+                            <a href="http://120.26.0.157:8011/im/linux/integration" target="_self">Linux客户端集成</a>
                         </div>
                 </div>
                 <!-- 扩展功能 -->
@@ -176,18 +184,22 @@
                         <p class="im-p-title">除了基本的IM功能以外，我们还提供更丰富的扩展功能的集成方法</p>
                         <div class="im-link-wrap">
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/extensions/live/intro" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-youtube-play fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/extensions/live/intro" target="_blank" class="im-h-text">直播间集成</a>
+                                <span class="im-h-text">直播间集成</span>
                                 <p class="im-p-text">专门为视频直播业务提供的产品</p>
+                                </a>
                             </div>
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/extensions/value/multidevice" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-rocket fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/extensions/value/multidevice" target="_blank" class="im-h-text">增值功能</a>
+                                <span class="im-h-text">增值功能</span>
                                 <p class="im-p-text">除基本功能外的集成方法</p>
+                                </a>
                             </div>
                         </div>
                 </div>
@@ -197,32 +209,38 @@
                         <p class="im-p-title">我们提供集成过程中，可能遇到的问题的的解决方案及帮助</p>
                         <div class="im-link-wrap">
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/other/integrationcases/nickname" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-puzzle-piece fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/other/integrationcases/nickname" target="_blank" class="im-h-text">常见集成方案</a>
+                                <span class="im-h-text">常见集成方案</span>
                                 <p class="im-p-text">IM功能结合产品使用场景的集成方法</p>
+                                </a>
                             </div>
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/other/errorcode/restapi" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-exclamation-circle fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/other/errorcode/restapi" target="_blank" class="im-h-text">错误码</a>
+                                <span class="im-h-text">错误码</span>
                                 <p class="im-p-text">集成过程错误码索引表</p>
+                                </a>
                             </div>
                             <div class="im-item">
+                                <a href="http://120.26.0.157:8011/im/other/help/help" target="_self" class="im-item-wrap">
                                 <span class="im-icon">
                                     <i class="fa fa-question-circle fa-normal icon-color-blue"></i>
                                 </span>
-                                <a href="http://120.26.0.157:8011/im/other/help/help" target="_blank" class="im-h-text">帮助</a>
+                                <span class="im-h-text">帮助</span>
                                 <p class="im-p-text">我们提供多种渠道来解决您的问题</p>
+                                </a>
                             </div>
                         </div>
                 </div>
                 <!-- 集成SDK/DEMO下载 -->
                 <div class="im-download">
                         <h1 class="im-h-title">集成SDK/Demo下载</h1>
-                        <a href="http://www.easemob.com/download/im" target="_blank" class="im-p-title">我们提供Android，iOS，Web等客户端的SDK/DEMO下载，点击查看下载详情页</a>
+                        <a href="http://www.easemob.com/download/im" target="_self" class="im-p-title">我们提供Android，iOS，Web等客户端的SDK/DEMO下载，点击查看下载详情页</a>
                         <!-- <div class="im-link-wrap">
                             <div class="im-item android">
                                 <span class="im-icon">

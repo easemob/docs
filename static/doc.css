@@ -20,7 +20,12 @@ html,body{
     line-height: .75em;
     vertical-align: -15%;
 }
-
+.im-item-wrap{
+    display: inline-block;
+    padding-top: 13px;
+    width: 100%;
+    height: 100%;
+}
 /* container */
 .im-container{
     width: 100%;
@@ -30,12 +35,22 @@ html,body{
    width: 100%;
    height: 50px;
    background-color: #fafafa; 
+   border-bottom: 1px solid #e7e7e7;
 }
 /* logo */
 .im-logo{
     display: inline-block;
     padding-left: 230px; 
     /* width: 100%; */
+    height: 50px;
+    line-height: 50px;
+    cursor: default;
+}
+.im-official-website{
+    float: right;
+    padding-right: 230px;
+    font-size: 14px;
+    color: #4a4a4a;
     height: 50px;
     line-height: 50px;
 }
@@ -51,7 +66,8 @@ html,body{
     display: inline-block;
     position: relative;
     top: 1px;
-    font-size: 15px;
+    font-size: 16px;
+    color: #777;
 }
 /* content */
 .im-content{
@@ -109,10 +125,10 @@ html,body{
     width: 100%;
 }
 .im-quick-start .im-item{
-    padding-top: 13px;
     width: 389px;
     height: 114px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-quick-start .im-item .im-icon{
     display: inline-block;
@@ -156,10 +172,10 @@ html,body{
     width: 100%;
 }
 .im-server-integration .im-item{
-    padding-top: 13px;
     width: 258px;
     height: 114px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-server-integration .im-item .im-icon{
     display: inline-block;
@@ -213,6 +229,7 @@ html,body{
     width: 388px;
     height: 164px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-client-integration .im-link-wrap .im-item.android{
     border: 1px solid #a2b752;
@@ -271,6 +288,7 @@ html,body{
     width: 388px;
     height: 138px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-client-integration .im-link-item .im-item.client{
     border: 1px solid #cf6f2d;
@@ -356,10 +374,10 @@ html,body{
     width: 100%;
 }
 .im-extend .im-item{
-    padding-top: 13px;
     width: 388px;
     height: 114px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-extend .im-item .im-icon{
     display: inline-block;
@@ -403,10 +421,10 @@ html,body{
     width: 100%;
 }
 .im-other .im-item{
-    padding-top: 13px;
     width: 258px;
     height: 114px;
     border: 1px solid #d8d8d8;
+    border-radius: 2px;
 }
 .im-other .im-item .im-icon{
     display: inline-block;
@@ -610,8 +628,8 @@ html,body{
     margin-top: 140px;
     width: 100%;
     height: 50px;
-    border-top: 1px soild #ccc;
     background-color: #fafafa;
+    border-top: 1px solid #e7e7e7;
 }
 .im-footer p{
     width: 100%;
