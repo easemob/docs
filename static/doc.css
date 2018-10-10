@@ -146,9 +146,9 @@ html,body{
     color: #c1c1c1;
 }
 .im-quick-start .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
 }
 /* 服务器端集成 */
@@ -193,9 +193,9 @@ html,body{
     color: #c1c1c1;
 }
 .im-server-integration .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
 }
 /* 客户端集成 */
@@ -262,9 +262,9 @@ html,body{
     font-size: 13px;
 }
 .im-client-integration .im-link-wrap .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
     border: none;
     border-top: 4px solid #92bc12;
@@ -273,9 +273,9 @@ html,body{
     border-bottom: 1px solid #92bc12; 
 }
 .im-client-integration .im-link-wrap .im-item.gray:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
     border: none;
     border-top: 4px solid #9b9b9b;
@@ -324,9 +324,9 @@ html,body{
     font-size: 13px;
 }
 .im-client-integration .im-link-item .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
     border: none;
     border-top: 4px solid #92bc12;
@@ -395,9 +395,9 @@ html,body{
     color: #c1c1c1;
 }
 .im-extend .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
 }
 /* 其他 */
@@ -442,9 +442,9 @@ html,body{
     color: #c1c1c1;
 }
 .im-other .im-item:hover{
-    -webkit-box-shadow: #666 2px 2px 10px;
-    -moz-box-shadow: #666 2px 2px 10px;
-    box-shadow: #666 2px 2px 10px;
+    -webkit-box-shadow: #ccc 0px 2px 10px;
+    -moz-box-shadow: #ccc 0px 2px 10px;
+    box-shadow: #ccc 0px 2px 10px;
     border-radius: 2px;
 }
 /* 下载 */
