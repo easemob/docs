@@ -1023,7 +1023,6 @@ html {
 	-webkit-tap-highlight-color:rgba(0,0,0,0)
 }
 body {
-	font-family:tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 	font-size:14px;
 	line-height:1.5;
 	color:#333;
@@ -3626,7 +3625,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	height:50px;
 	padding:15px 15px;
 	font-size:16px;
-	line-height:20.5px
+	line-height:22px;
 }
 .navbar-brand:focus,.navbar-brand:hover {
 	text-decoration:none
@@ -3828,7 +3827,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 /*导航背景色*/
 }.navbar-default {
-	background-color:#fafafa;
+	background-color:#fdfdfd;
 	border-color:#e7e7e7
 }
 /*文档logo的字体颜色*/
