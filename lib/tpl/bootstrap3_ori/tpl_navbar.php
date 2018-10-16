@@ -45,7 +45,7 @@ $navbar_classes[] = (bootstrap3_conf('inverseNavbar')  ? 'navbar-inverse'   : 'n
 
         // display logo and wiki title in a link to the home page
         tpl_link(
-            wl(),
+            wl(null),
             '<img src="'.$logo.'" alt="'.$title.'" class="pull-left'.(($tagline) ? ' dw-logo-tagline' : '').'" id="dw__logo" '.$logo_size.' /> <span id="dw__title" '.($tagline ? 'style="margin-top:-5px"': '').'>'. $title . $tagline .'</span>',
             'accesskey="h" title="[H]" class="navbar-brand"'
         );
