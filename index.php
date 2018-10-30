@@ -6,7 +6,7 @@
  * @author     Andreas Gohr <andi@splitbrain.org>
  */
 //header("Location: doku.php");
-//header("Location: im/");
+header("Location: cs/");
 ?>
 <!DOCTYPE html>
 <html>
