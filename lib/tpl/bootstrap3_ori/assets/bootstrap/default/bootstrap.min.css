@@ -6,7 +6,7 @@
 	-ms-text-size-adjust:100%
 }
 body {
-	margin:0
+	margin-top: -20px;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display:block
@@ -1115,15 +1115,15 @@ hr {
 	color:#777
 }
 .h1,.h2,.h3,h1,h2,h3 {
-	margin-top:36px;
-	margin-bottom:14px
+	margin-top:32px;
+	margin-bottom:12px
 }
 .h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
 	font-size:65%
 }
 .h4,.h5,.h6,h4,h5,h6 {
-	margin-top:24px;
-	margin-bottom:12px
+	margin-top:16px;
+	margin-bottom:8px
 }
 .h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small {
 	font-size:75%
@@ -3361,13 +3361,14 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	margin-left:-1px
 }
 .nav {
-	padding-left:0px;
-	margin-bottom:0;
+	padding-left: 0px;
+	margin-bottom: -6px;
 	list-style:none
 }
 .nav>li {
 	position:relative;
-	display:block
+	display:block;
+	margin-bottom: -2px;
 }
 .nav>li>a {
 	position:relative;
@@ -3478,7 +3479,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	float:none
 }
 .nav-stacked>li+li {
-	margin-top:2px;
+	margin-top:-4px;
 	margin-left:0
 }
 .nav-justified {
@@ -3535,7 +3536,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .navbar {
 	position:relative;
 	min-height:50px;
-	margin-bottom:20px;
+	/*margin-bottom:20px;*/
 	border:1px solid transparent
 }
 @media (min-width:768px) {
@@ -4773,7 +4774,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:focus,a.list-gro
 /*模块样式*/
 .panel-default {
 	/*border-color:#ddd*/
-	padding: 0px 5px 0px 3px;
+	padding: 2px 5px 12px 3px;
 }
 .panel-default>.panel-heading {
 	color:#333;
