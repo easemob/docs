@@ -97,12 +97,8 @@ header('X-UA-Compatible: IE=edge,chrome=1');
               echo '<div class="dw-content '. implode(' ', $content_classes) .'">';
 
               // Include the TOC layout
-              echo '<div class="col-md-9 content-col">';
-              echo $content;
-              echo '</div>';
-              echo '<div class="col-md-3 hidden-xs hidden-sm toc-col">';
               if ($toc) echo '<div class="dw-toc '. implode(' ', $toc_classes) .' hidden-print">' . $toc . '</div>';
-              echo '</div>';
+              echo $content;
               echo '</div>';
 
               tpl_flush();
