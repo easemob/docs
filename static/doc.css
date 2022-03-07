@@ -639,3 +639,37 @@ html,body{
     font-size: 12px;
     color: #a3a3a3;
 }
+
+.right-layer {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  width: 255px;
+  height: 177px;
+  background-image: url(3.0x.png?20220307);
+  background-image: -webkit-image-set(url(3.0x.png?20220307) 1x, url(3.0x@2x.png?20220307) 2x);
+}
+.right-layer .u-close {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  width: 16px;
+  height: 16px;;
+}
+.right-layer .u-close img {
+  display: block;
+  width: 100%;
+}
+.right-layer .u-view {
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+  width: 76px;
+  height: 24px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
