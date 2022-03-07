@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="static/reset.css">
-    <link rel="stylesheet" type="text/css" href="static/doc.css?v=20220304">
+    <link rel="stylesheet" type="text/css" href="static/doc.css?v=20220307">
 </head>
 <body>
     <div class="im-container">
@@ -26,7 +26,8 @@
          <div class="im-content">
              <!-- docs select area -->
              <div class="im-docs-select-area">
-                <p class="im-content-info">环信即时通讯云是全球最大的即时通讯云Paas平台。V3.0版本对SDK和通讯协议进行了全面深度的改造与优化</p>
+                <!-- <p class="im-content-info">环信即时通讯云是全球最大的即时通讯云Paas平台。V3.0版本对SDK和通讯协议进行了全面深度的改造与优化</p> -->
+                <p class="im-content-info">环信即时通讯云开发文档。V3.0版本对SDK和通讯协议进行了全面深度的改造与优化</p>
                 <select class="im-select-area"  onchange="javascript:location.href=this.value;"> 
                     <option value="http://docs-im.easemob.com/start/start">IM开发文档2.0</option>
                     <!-- <option value="http://docs.easemob.com/im/start" selected = "selected">IM开发文档3.0</option> -->
@@ -295,6 +296,9 @@
             <p>© 2017环信丨京ICP备14026002号</p>
          </div>
     </div>
-    <div class="right-layer" onclick="window.location.href='https://docs-im.easemob.com/ccim/intro'"></div>
+    <div class="right-layer" id="right-layer">
+      <a class="u-close" onclick="document.getElementById('right-layer').style.display = 'none';"><img src="static/u-close@2x.png"></a>
+      <a href="https://docs-im.easemob.com/ccim/intro" class="u-view">立即查看</a>
+    </div>
 </body>
 </html>
