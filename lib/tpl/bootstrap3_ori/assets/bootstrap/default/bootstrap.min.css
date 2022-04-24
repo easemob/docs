@@ -5723,3 +5723,9 @@ td.visible-print,th.visible-print {
 }
 }
 /*# sourceMappingURL=bootstrap.min.css.map*/
+.dw__sidebar {
+  position: sticky;
+  top: 51px;
+  height: calc(100vh - 51px);
+  overflow: auto;
+}
