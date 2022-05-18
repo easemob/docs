@@ -5741,6 +5741,6 @@ td.col2 {
     float: none;
   }
   .dw-table-width article table.inline {
-    width: 100%;
+    width: 100% !important;
   }
 }
