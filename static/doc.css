@@ -673,3 +673,25 @@ html,body{
   border: 1px solid #fff;
   border-radius: 4px;
 }
+
+@media screen and (max-width: 767px) {
+  .im-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .im-logo {
+    padding-left: 0;
+    margin-left: 10px;
+  }
+  .im-official-website {
+    padding-right: 0;
+    margin-right: 10px;
+  }
+  .im-link-area {
+    width: 100%;
+  }
+  .im-client-integration .im-link-wrap .im-ul-list,
+  .im-client-integration .im-link-item .im-ul-list {
+    width: calc(100% - 10px);
+  }
+}
