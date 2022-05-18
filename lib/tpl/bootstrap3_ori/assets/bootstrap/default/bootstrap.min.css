@@ -5732,7 +5732,7 @@ td.visible-print,th.visible-print {
 #dokuwiki__content {
   float: right;
 }
-td.col2 {
+td.col2, .dw-content {
   word-break: break-all;
 }
 
