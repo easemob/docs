@@ -20,3 +20,6 @@ if (page_findnearest('footer', bootstrap3_conf('useACL'))):
   </div>
 </footer>
 <?php endif; ?>
+<script>
+    console.log('bootstrap3_ori');
+</script>

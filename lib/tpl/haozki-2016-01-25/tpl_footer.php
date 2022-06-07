@@ -24,3 +24,7 @@ if ($footer_page_exists):
   </div>
 </div>
 <?php endif; ?>
+
+<script>
+    console.log('haozki');
+</script>
