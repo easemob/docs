@@ -1367,7 +1367,6 @@ code,kbd,pre,samp {
 code {
 	padding:2px 4px;
 	font-size:100%;
-	/*color:#c7254e;*/
 	background-color:#f9f2f4;
 	border-radius:4px
 }
@@ -5732,9 +5731,6 @@ td.visible-print,th.visible-print {
 #dokuwiki__content {
   float: right;
 }
-/*td.col2, .dw-content {
-  word-break: break-all;
-}*/
 
 @media screen and (max-width: 767px) {
   #dokuwiki__content {
