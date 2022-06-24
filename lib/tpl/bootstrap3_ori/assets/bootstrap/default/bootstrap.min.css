@@ -5732,9 +5732,9 @@ td.visible-print,th.visible-print {
 #dokuwiki__content {
   float: right;
 }
-td.col2, .dw-content {
+/*td.col2, .dw-content {
   word-break: break-all;
-}
+}*/
 
 @media screen and (max-width: 767px) {
   #dokuwiki__content {
